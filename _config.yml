@@ -1,0 +1,25 @@
+# Site settings
+title: 伏龙坪筑
+email: selah@outlook.com
+description: > # this means to ignore newlines until "baseurl:"
+  伏龙坪山顶有奶牛场，半山腰有很多萌萌汪。
+  微风吹过，坪主微微睁开眼睛，然后又睡了过去。
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://blog.selaselah.com" # the base hostname & protocol for your site
+twitter_username: selaselah
+github_username:  selaselah
+host: 0.0.0.0
+
+# Build settings
+markdown: kramdown
+
+# theme-lin
+## gavatar头像及Favicon
+gavatar: /public/img/dragon.png
+favicon: /public/img/dragon.png
+## 汉化
+locals:
+  tags: 标签
+  about: 关于
+  newest: 最新文章
+  archive: 归档
